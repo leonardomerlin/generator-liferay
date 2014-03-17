@@ -20,8 +20,7 @@ describe('liferay generator', function () {
   it('creates expected files', function (done) {
     var expected = [
       // add files you expect to exist here.
-      '.jshintrc',
-      '.editorconfig'
+      'icon.png'
     ];
 
     helpers.mockPrompt(this.app, {

@@ -5,6 +5,8 @@ var yeoman = require('yeoman-generator');
 var chalk = require('chalk');
 
 
+
+
 var LiferayGenerator = yeoman.generators.Base.extend({
   init: function () {
     this.pkg = require('../package.json');
@@ -67,20 +69,20 @@ var LiferayGenerator = yeoman.generators.Base.extend({
   },
 
   app: function () {
+    this.mkdir('docroot');
+    this.mkdir('docroot/html');
+    this.mkdir('docroot/js');
+    this.mkdir('docroot/css');
+    
     // init.jsp - contém todas as taglibs e imports comums ao portlet
     this.template('docroot/html/_init.jsp', 'docroot/html/init.jsp');
-
-
 
   },
 
   projectfiles: function () {
-    this.mkdir('docroot');
     this.mkdir('docroot/META-INF');
     this.mkdir('docroot/WEB-INF');
-    this.mkdir('docroot/html');
-    this.mkdir('docroot/js');
-    this.mkdir('docroot/css');
+
     this.copy('docroot/icon.png', 'docroot/icon.png');
   }
 });
