@@ -1,46 +1,37 @@
-# generator-liferay [![Build Status](https://secure.travis-ci.org/leonardomerlin/generator-liferay.png?branch=master)](https://travis-ci.org/leonardomerlin/generator-liferay)
+# [Liferay](http://liferay.com/) generator [![Build Status](https://secure.travis-ci.org/leonardomerlin/generator-liferay.png?branch=master)](https://travis-ci.org/leonardomerlin/generator-liferay)
 
-> [Yeoman](http://yeoman.io) generator
+> Yeoman generator for Liferay Portlets - lets you quickly set up a portlet with best practises.
 
+## Usage
 
-## Getting Started
-
-### What is Yeoman?
-
-Trick question. It's not a thing. It's this guy:
-
-![](http://i.imgur.com/JHaAlBJ.png)
-
-Basically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.
-
-Not every new computer comes with a Yeoman pre-installed. He lives in the [npm](https://npmjs.org) package repository. You only have to ask for him once, then he packs up and moves into your hard drive. *Make sure you clean up, he likes new and shiny things.*
-
+Install `generator-liferay`:
 ```
-$ npm install -g yo
+npm install -g generator-liferay
 ```
 
-### Yeoman Generators
-
-Yeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.
-
-To install generator-liferay from npm, run:
-
+Make a new directory, and `cd` into it:
 ```
-$ npm install -g generator-liferay
+mkdir my-new-project && cd $_
 ```
 
-Finally, initiate the generator:
-
+Run `yo liferay`, optionally passing an app name:
 ```
-$ yo liferay
+yo liferay [portlet-name]
 ```
 
-### Getting To Know Yeoman
 
-Yeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced.
+## Generators
 
-If you'd like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).
+Avaliable generators: none yet.
 
+In development generators:
+
+* liferay:all
+* liferay:model
+* liferay:view
+* liferay:controller
+
+**Note: Generators are to be run from the root directory of your project.**
 
 ## License
 
