@@ -1,6 +1,6 @@
 # [Liferay](http://liferay.com/) generator [![Build Status](https://secure.travis-ci.org/leonardomerlin/generator-liferay.png?branch=master)](https://travis-ci.org/leonardomerlin/generator-liferay)
 
-> Yeoman generator for Liferay Portlets - lets you quickly set up a portlet with best practises.
+> Yeoman generator for Liferay Portlets - lets you quickly set up a portlet with best practices.
 
 ## Usage
 
